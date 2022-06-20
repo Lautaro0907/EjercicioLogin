@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    width: 100%;
+    
+}
+.foto-login{
+    width: 50%;
+   background-image: url(../img/fiat.png);
+   background-size: cover;
+}
+.contenedor{
+    display: flex;
+    width: 50%;
+    background-color: rgba(241, 239, 239, 0.678);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;    
+}
+h2{
+    color: rgba(138, 129, 129, 0.637);
+    margin-top: 15px;
+    font-family: 'Cinzel', serif;
+}
+form{
+    margin: auto;
+    text-align: center;
+}
+label{
+    display: block;
+    margin: .2em 0 0 0;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.caja{
+    width: 13em;
+    height: 2em;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 0.3em;
+    background-color: rgba(177, 163, 140, 0.199);
+    margin-bottom: 10px;
+}
+.boton{
+    display: block;
+    width:  10em ;
+    margin: 1em auto;
+    padding: 10px;
+    border-radius: 5em;
+    background-color: rgba(177, 163, 140, 0.199);
+}
+
+span{
+    text-decoration:underline;
+    font-weight: bold;
+}
